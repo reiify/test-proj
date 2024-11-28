@@ -1,0 +1,13 @@
+{
+	"experimentalTernaries": true,
+	"printWidth": 120,
+	"useTabs": true,
+	"singleQuote": true,
+	"vueIndentScriptAndStyle": true,
+	"singleAttributePerLine": true,
+
+	"plugins": ["prettier-plugin-css-order", "prettier-plugin-organize-imports", "@trivago/prettier-plugin-sort-imports"],
+	"importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
